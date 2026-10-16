@@ -1,0 +1,37 @@
+# Секреты — никогда не коммитить
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+# JSON-ключи Google service account
+*service-account*.json
+*credentials*.json
+gcp-*.json
+
+# Данные
+*.db
+*.sqlite
+*.sqlite3
+backups/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
